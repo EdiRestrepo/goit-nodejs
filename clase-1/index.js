@@ -13,8 +13,6 @@ program.parse(process.argv);
 
 const argv = program.opts();
 
-// TODO: refactorizar
-
 function invokeAction({ action, id, name, email, phone }) {
     switch (action) {
         case "list":
